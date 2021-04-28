@@ -2,7 +2,7 @@ package javaDemos2;
 
 public class CourseManager {
 	
-	String fullname;
+	String fullname; 
 	String email;
 	String password;
 	

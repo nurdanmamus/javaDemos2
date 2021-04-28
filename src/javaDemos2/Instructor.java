@@ -1,8 +1,8 @@
 package javaDemos2;
 
-public class Instructor {
+public class Instructor {  
 	
-	public Instructor() {
+	public Instructor() { 
 //		System.out.println("Default constructor is triggered.");
 	}
 	
