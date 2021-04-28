@@ -2,7 +2,7 @@
 javaDemos2
 
 ### Creating Category, Instructor and Course Classes
-### Adding Course to list using different ways
+### Adding Course to List Using Different Ways
 ```Java
     Course course1 = new Course();
     course1.setId(1);
