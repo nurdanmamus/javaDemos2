@@ -1,6 +1,6 @@
 package javaDemos2;
 
-public class Category {
+public class Category { 
 	
 	public Category(int id, String name) {  
 		this.id = id; 

@@ -10,4 +10,4 @@ public class CourseManager {
 		return "Kursa başarıyla kayıt olundu.";
 	}
 
-}
+} 

@@ -12,7 +12,7 @@ public class Course {
 		this.instructor = instructor;
 		this.categoryid = categoryid;
 	}
-	
+	 
 	/**
 	 * @return the id
 	 */

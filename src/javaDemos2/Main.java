@@ -13,7 +13,7 @@ public class Main {
 		course1.setName("Yazýlým Geliþtirici Yetiþtirme Kampý(C# + Angular)");
 		course1.setInstructor("Engin Demiroð"); 
 		course1.setCategoryid(1);
-		
+		 
 		
 		Course course2 = new Course(1,"Yazýlým Geliþtirici Yetiþtirme Kampý(Java + React)","Engin Demiroð",1);
 		Course course3 = new Course(1,"Programlamaya Giriþ için Temel Kurs","Engin D.",1);

@@ -10,6 +10,6 @@ public class CategoryManager {
 				System.out.println(course.getName()); 
 			}		
 		}
-	}
+	} 
 
 }
