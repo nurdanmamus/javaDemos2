@@ -43,8 +43,8 @@ InstructorManager instructorManager = new InstructorManager();
 instructorManager.listCourseByInstructor(courses, "Engin Demiroğ");
 ```
 ### Result :
-Yazılım Geliştirici Yetiştirme Kampı(C# + Angular)
-Yazılım Geliştirici Yetiştirme Kampı(Java + React)
+##### Yazılım Geliştirici Yetiştirme Kampı(C# + Angular)
+##### Yazılım Geliştirici Yetiştirme Kampı(Java + React)
 
 ### Listed Courses By Selected Category
 ```Java
@@ -66,9 +66,9 @@ CategoryManager categoryManager = new CategoryManager();
 categoryManager.listCourseByCategory(courses, 1);
 ```
 ### Result :
-Yazılım Geliştirici Yetiştirme Kampı(C# + Angular)
-Yazılım Geliştirici Yetiştirme Kampı(Java + React)
-Programlamaya Giriş için Temel Kurs
+##### Yazılım Geliştirici Yetiştirme Kampı(C# + Angular)
+##### Yazılım Geliştirici Yetiştirme Kampı(Java + React)
+##### Programlamaya Giriş için Temel Kurs
 
 ### Signed Up a Course
 ```Java
