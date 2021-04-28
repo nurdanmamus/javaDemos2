@@ -1,8 +1,6 @@
 # javaDemos2
 javaDemos2
 
-#### gsdgs
-
 ### Creating Category, Instructor and Course Classes
 ### Adding Course to list using different ways
 ```Java
@@ -80,7 +78,7 @@ public class CourseManager {
 	String password;
 	
 	public static String signUpCourse(String fullname, String email, String password) {		
-		return "Kursa başarıyla kayıt olundu.";
+		return "Signed up successfully.";
 	}
  
 } 
