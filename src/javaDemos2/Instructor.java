@@ -6,7 +6,7 @@ public class Instructor {
 //		System.out.println("Default constructor is triggered.");
 	}
 	
-	public Instructor(int id,String name) {
+	public Instructor(int id,String name) { 
 		this.id = id;
 		this.name = name;
 	}

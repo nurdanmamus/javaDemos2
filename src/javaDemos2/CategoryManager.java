@@ -7,7 +7,7 @@ public class CategoryManager {
 		
 		for (Course course : courses) {
 			if (course.getCategoryid() == categoryid) {
-				System.out.println(course.getName());
+				System.out.println(course.getName()); 
 			}		
 		}
 	}
