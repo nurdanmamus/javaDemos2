@@ -3,7 +3,7 @@ package javaDemos2;
 public class Main {
 
 	public static void main(String[] args) {  
-		// TODO Auto-generated method stub
+		// TODO Auto-generated method stub 
 		
 		Instructor instructor = new Instructor(1,"Engin Demiroð"); //instantiation
 		Instructor[] instructors = {instructor};

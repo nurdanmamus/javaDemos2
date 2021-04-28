@@ -1,7 +1,7 @@
 package javaDemos2;
 
 public class Course {
-	
+	 
 	public Course() {  
 //		System.out.println("Default constructor is triggered.");
 	}

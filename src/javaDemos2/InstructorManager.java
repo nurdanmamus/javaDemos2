@@ -1,6 +1,6 @@
 package javaDemos2;
 
-public class InstructorManager {  
+public class InstructorManager {   
 	
 public static void listCourseByInstructor(Course courses[], String instructor) {
 		

@@ -1,6 +1,6 @@
 package javaDemos2;
 
-public class CategoryManager { 
+public class CategoryManager {  
 	
 	//Listing courses by selected category
 	public static void listCourseByCategory(Course courses[], int categoryid) {

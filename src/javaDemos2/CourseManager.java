@@ -1,6 +1,6 @@
 package javaDemos2;
 
-public class CourseManager {
+public class CourseManager { 
 	
 	String fullname; 
 	String email;
