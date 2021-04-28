@@ -46,7 +46,9 @@ CategoryManager categoryManager = new CategoryManager();
 categoryManager.listCourseByCategory(courses, 1);
 ```
 ### Result :
-|Yazılım Geliştirici Yetiştirme Kampı(C# + Angular)
-Yazılım Geliştirici Yetiştirme Kampı(Java + React)
-Programlamaya Giriş için Temel Kurs|
+|Yazılım Geliştirici Yetiştirme Kampı(C# + Angular)|
+|---|---|---|
+|Yazılım Geliştirici Yetiştirme Kampı(Java + React)|
+|---|---|---|
+|Programlamaya Giriş için Temel Kurs|
 ### Listed Courses By Selected Category
