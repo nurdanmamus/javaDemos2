@@ -11,7 +11,7 @@ public class Instructor {
 		this.name = name;
 	}
 	
-   int id;
+   int id; 
    String name;
 }
  

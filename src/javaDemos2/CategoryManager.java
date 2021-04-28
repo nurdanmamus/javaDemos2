@@ -9,7 +9,7 @@ public class CategoryManager {
 			if (course.getCategoryid() == categoryid) {
 				System.out.println(course.getName()); 
 			}		
-		}
+		} 
 	} 
 
 }

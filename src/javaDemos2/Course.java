@@ -9,7 +9,7 @@ public class Course {
 	public Course(int id,String name, String instructor,int categoryid) { 
 		this.id = id;
 		this.name = name;
-		this.instructor = instructor;
+		this.instructor = instructor; 
 		this.categoryid = categoryid;
 	}
 	 

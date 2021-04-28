@@ -11,8 +11,8 @@ public class Main {
 		Course course1 = new Course();
 		course1.setId(1);
 		course1.setName("Yazýlým Geliþtirici Yetiþtirme Kampý(C# + Angular)");
-		course1.setInstructor("Engin Demiroð"); 
-		course1.setCategoryid(1);
+		course1.setInstructor("Engin Demiroð");
+		course1.setCategoryid(1); 
 		 
 		
 		Course course2 = new Course(1,"Yazýlým Geliþtirici Yetiþtirme Kampý(Java + React)","Engin Demiroð",1);

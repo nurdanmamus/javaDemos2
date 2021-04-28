@@ -9,5 +9,5 @@ public class CourseManager {
 	public static String signUpCourse(String fullname, String email, String password) {		
 		return "Kursa baþarýyla kayýt olundu.";
 	}
-
+ 
 } 
