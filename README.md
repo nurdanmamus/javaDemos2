@@ -1,6 +1,8 @@
 # javaDemos2
 javaDemos2
 
+#### gsdgs
+
 ### Creating Category, Instructor and Course Classes
 ### Adding Course to list using different ways
 ```Java
@@ -50,3 +52,36 @@ Yazılım Geliştirici Yetiştirme Kampı(C# + Angular)
 Yazılım Geliştirici Yetiştirme Kampı(Java + React)
 Programlamaya Giriş için Temel Kurs
 ### Listed Courses By Selected Category
+```Java
+public class CategoryManager {  
+	
+	//Listing courses by selected category
+	public static void listCourseByCategory(Course courses[], int categoryid) {
+		
+		for (Course course : courses) {
+			if (course.getCategoryid() == categoryid) {
+				System.out.println(course.getName()); 
+			}		
+		} 
+	} 
+
+}
+```
+### Result :
+Yazılım Geliştirici Yetiştirme Kampı(C# + Angular)
+Yazılım Geliştirici Yetiştirme Kampı(Java + React)
+
+### Signed Up a Course
+```Java
+public class CourseManager { 
+	
+	String fullname; 
+	String email;
+	String password;
+	
+	public static String signUpCourse(String fullname, String email, String password) {		
+		return "Kursa başarıyla kayıt olundu.";
+	}
+ 
+} 
+```
