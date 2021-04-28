@@ -1,5 +1,4 @@
 # javaDemos2
-javaDemos2
 
 ### Creating Category, Instructor and Course Classes
 ### Adding Course to List Using Different Ways
