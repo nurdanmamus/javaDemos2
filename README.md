@@ -27,6 +27,27 @@
 ```
 ### Listed Courses By Selected Instructor
 ```Java
+public class InstructorManager {   
+	
+public static void listCourseByInstructor(Course courses[], String instructor) {
+		
+		for (Course course : courses) {
+			if (course.getInstructor() == instructor) {
+				System.out.println(course.getName()); 
+			}		
+		}
+	}
+}
+
+InstructorManager instructorManager = new InstructorManager();
+instructorManager.listCourseByInstructor(courses, "Engin Demiroğ");
+```
+### Result :
+Yazılım Geliştirici Yetiştirme Kampı(C# + Angular)
+Yazılım Geliştirici Yetiştirme Kampı(Java + React)
+
+### Listed Courses By Selected Category
+```Java
 public class CategoryManager {  
 	
 	//Listing courses by selected category
@@ -48,25 +69,6 @@ categoryManager.listCourseByCategory(courses, 1);
 Yazılım Geliştirici Yetiştirme Kampı(C# + Angular)
 Yazılım Geliştirici Yetiştirme Kampı(Java + React)
 Programlamaya Giriş için Temel Kurs
-### Listed Courses By Selected Category
-```Java
-public class CategoryManager {  
-	
-	//Listing courses by selected category
-	public static void listCourseByCategory(Course courses[], int categoryid) {
-		
-		for (Course course : courses) {
-			if (course.getCategoryid() == categoryid) {
-				System.out.println(course.getName()); 
-			}		
-		} 
-	} 
-
-}
-```
-### Result :
-Yazılım Geliştirici Yetiştirme Kampı(C# + Angular)
-Yazılım Geliştirici Yetiştirme Kampı(Java + React)
 
 ### Signed Up a Course
 ```Java
